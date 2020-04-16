@@ -162,7 +162,7 @@
 <library name="Trinamic">
 <packages>
 <package name="QFN76_10P5X6P5">
-<smd name="1" x="-5.1725" y="2.6" dx="0.1524" dy="0.7548" layer="1" rot="R270"/>
+<smd name="1" x="-5.1725" y="2.6" dx="0.1524" dy="0.7548" layer="1" roundness="100" rot="R270"/>
 <smd name="2" x="-5.1725" y="2.2" dx="0.1524" dy="0.7548" layer="1" rot="R270"/>
 <smd name="3" x="-5.1725" y="1.8" dx="0.1524" dy="0.7548" layer="1" rot="R270"/>
 <smd name="4" x="-5.1725" y="1.4" dx="0.1524" dy="0.7548" layer="1" rot="R270"/>
@@ -175,8 +175,8 @@
 <smd name="11" x="-5.1725" y="-1.4" dx="0.1524" dy="0.7548" layer="1" rot="R270"/>
 <smd name="12" x="-5.1725" y="-1.8" dx="0.1524" dy="0.7548" layer="1" rot="R270"/>
 <smd name="13" x="-5.1725" y="-2.2" dx="0.1524" dy="0.7548" layer="1" rot="R270"/>
-<smd name="14" x="-5.1725" y="-2.6" dx="0.1524" dy="0.7548" layer="1" rot="R270"/>
-<smd name="15" x="-4.599996875" y="-3.1786" dx="0.1524" dy="0.7548" layer="1" rot="R180"/>
+<smd name="14" x="-5.1725" y="-2.6" dx="0.1524" dy="0.7548" layer="1" roundness="100" rot="R270"/>
+<smd name="15" x="-4.599996875" y="-3.1786" dx="0.1524" dy="0.7548" layer="1" roundness="100" rot="R180"/>
 <smd name="16" x="-4.2" y="-3.1786" dx="0.1524" dy="0.7548" layer="1" rot="R180"/>
 <smd name="17" x="-3.8" y="-3.1786" dx="0.1524" dy="0.7548" layer="1" rot="R180"/>
 <smd name="18" x="-3.4" y="-3.1786" dx="0.1524" dy="0.7548" layer="1" rot="R180"/>
@@ -199,8 +199,8 @@
 <smd name="35" x="3.4" y="-3.1786" dx="0.1524" dy="0.7548" layer="1" rot="R180"/>
 <smd name="36" x="3.8" y="-3.1786" dx="0.1524" dy="0.7548" layer="1" rot="R180"/>
 <smd name="37" x="4.2" y="-3.1786" dx="0.1524" dy="0.7548" layer="1" rot="R180"/>
-<smd name="38" x="4.599996875" y="-3.1786" dx="0.1524" dy="0.7548" layer="1" rot="R180"/>
-<smd name="39" x="5.1725" y="-2.6" dx="0.1524" dy="0.7548" layer="1" rot="R270"/>
+<smd name="38" x="4.599996875" y="-3.1786" dx="0.1524" dy="0.7548" layer="1" roundness="100" rot="R180"/>
+<smd name="39" x="5.1725" y="-2.6" dx="0.1524" dy="0.7548" layer="1" roundness="100" rot="R270"/>
 <smd name="40" x="5.1725" y="-2.2" dx="0.1524" dy="0.7548" layer="1" rot="R270"/>
 <smd name="41" x="5.1725" y="-1.8" dx="0.1524" dy="0.7548" layer="1" rot="R270"/>
 <smd name="42" x="5.1725" y="-1.4" dx="0.1524" dy="0.7548" layer="1" rot="R270"/>
@@ -213,8 +213,8 @@
 <smd name="49" x="5.1725" y="1.4" dx="0.1524" dy="0.7548" layer="1" rot="R270"/>
 <smd name="50" x="5.1725" y="1.8" dx="0.1524" dy="0.7548" layer="1" rot="R270"/>
 <smd name="51" x="5.1725" y="2.2" dx="0.1524" dy="0.7548" layer="1" rot="R270"/>
-<smd name="52" x="5.1725" y="2.6" dx="0.1524" dy="0.7548" layer="1" rot="R270"/>
-<smd name="53" x="4.599996875" y="3.1786" dx="0.1524" dy="0.7548" layer="1" rot="R180"/>
+<smd name="52" x="5.1725" y="2.6" dx="0.1524" dy="0.7548" layer="1" roundness="100" rot="R270"/>
+<smd name="53" x="4.599996875" y="3.1786" dx="0.1524" dy="0.7548" layer="1" roundness="100" rot="R180"/>
 <smd name="54" x="4.2" y="3.1786" dx="0.1524" dy="0.7548" layer="1" rot="R180"/>
 <smd name="55" x="3.8" y="3.1786" dx="0.1524" dy="0.7548" layer="1" rot="R180"/>
 <smd name="56" x="3.4" y="3.1786" dx="0.1524" dy="0.7548" layer="1" rot="R180"/>
@@ -237,7 +237,7 @@
 <smd name="73" x="-3.4" y="3.1786" dx="0.1524" dy="0.7548" layer="1" rot="R180"/>
 <smd name="74" x="-3.8" y="3.1786" dx="0.1524" dy="0.7548" layer="1" rot="R180"/>
 <smd name="75" x="-4.2" y="3.1786" dx="0.1524" dy="0.7548" layer="1" rot="R180"/>
-<smd name="76" x="-4.599996875" y="3.1786" dx="0.1524" dy="0.7548" layer="1" rot="R180"/>
+<smd name="76" x="-4.599996875" y="3.1786" dx="0.1524" dy="0.7548" layer="1" roundness="100" rot="R180"/>
 <smd name="77" x="0" y="0" dx="8.9916" dy="5.0038" layer="1"/>
 <wire x1="-5.3848" y1="-3.3782" x2="-5.0038" y2="-3.3782" width="0.1524" layer="21"/>
 <wire x1="5.3848" y1="-3.3782" x2="5.3848" y2="-2.9972" width="0.1524" layer="21"/>
@@ -16416,21 +16416,21 @@ package type OT</description>
 <rectangle x1="-0.35" y1="1.15" x2="-0.15" y2="1.55" layer="51"/>
 <rectangle x1="-0.85" y1="1.15" x2="-0.65" y2="1.55" layer="51"/>
 </package>
-<package name="MSOP8" urn="urn:adsk.eagle:footprint:8086236/1">
+<package name="MSOP8" urn="urn:adsk.eagle:footprint:8086236/1" locally_modified="yes">
 <description>&lt;b&gt;Micro Small Outline Package&lt;/b&gt; Grid .65mm&lt;p&gt;</description>
 <wire x1="-1.4" y1="1.4" x2="1.4" y2="1.4" width="0.2032" layer="21"/>
 <wire x1="1.4" y1="1.4" x2="1.4" y2="-1.4" width="0.2032" layer="21"/>
 <wire x1="1.4" y1="-1.4" x2="-1.4" y2="-1.4" width="0.2032" layer="21"/>
 <wire x1="-1.4" y1="-1.4" x2="-1.4" y2="1.4" width="0.2032" layer="21"/>
 <circle x="-1" y="-1" radius="0.2" width="0" layer="21"/>
-<smd name="1" x="-0.975" y="-2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="2" x="-0.325" y="-2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="3" x="0.325" y="-2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="4" x="0.975" y="-2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="5" x="0.975" y="2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="6" x="0.325" y="2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="7" x="-0.325" y="2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="8" x="-0.975" y="2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="1" x="-0.975" y="-2.05" dx="0.4318" dy="0.9906" layer="1"/>
+<smd name="2" x="-0.325" y="-2.05" dx="0.4318" dy="0.9906" layer="1"/>
+<smd name="3" x="0.325" y="-2.05" dx="0.4318" dy="0.9906" layer="1"/>
+<smd name="4" x="0.975" y="-2.05" dx="0.4318" dy="0.9906" layer="1"/>
+<smd name="5" x="0.975" y="2.05" dx="0.4318" dy="0.9906" layer="1"/>
+<smd name="6" x="0.325" y="2.05" dx="0.4318" dy="0.9906" layer="1"/>
+<smd name="7" x="-0.325" y="2.05" dx="0.4318" dy="0.9906" layer="1"/>
+<smd name="8" x="-0.975" y="2.05" dx="0.4318" dy="0.9906" layer="1"/>
 <text x="-1.15" y="0.15" size="1.016" layer="25">&gt;NAME</text>
 <text x="-0.65" y="-1.05" size="1.016" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.1254" y1="-2.45" x2="-0.8254" y2="-1.5" layer="51"/>
@@ -16498,7 +16498,7 @@ package type OT</description>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="2.54" width="0.254" layer="94"/>
 <wire x1="10.16" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
 </symbol>
-<symbol name="INA28X">
+<symbol name="AD841X">
 <pin name="IN-" x="-12.7" y="7.62" length="middle"/>
 <pin name="GND" x="-12.7" y="2.54" length="middle"/>
 <pin name="REF2" x="-12.7" y="-2.54" length="middle"/>
@@ -16636,9 +16636,9 @@ package type OT</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="INA28X" prefix="U">
+<deviceset name="AD841X" prefix="U">
 <gates>
-<gate name="G$1" symbol="INA28X" x="0" y="0"/>
+<gate name="G$1" symbol="AD841X" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="MSOP8">
@@ -27122,8 +27122,8 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="1.5m"/>
 <part name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="1.5m"/>
-<part name="U13" library="Powermisc" deviceset="INA28X" device=""/>
-<part name="U12" library="Powermisc" deviceset="INA28X" device=""/>
+<part name="U13" library="Powermisc" deviceset="AD841X" device=""/>
+<part name="U12" library="Powermisc" deviceset="AD841X" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -27243,9 +27243,8 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <wire x1="579.12" y1="251.46" x2="535.94" y2="251.46" width="0.1524" layer="94"/>
 <text x="538.48" y="233.68" size="1.27" layer="94">LEDs</text>
 <text x="738.632" y="20.066" size="2.54" layer="94">Connectors</text>
-<text x="292.1" y="160.02" size="1.778" layer="94">INA282 (50x Gain)
-
-Range: +/-  66A/2 =&gt; 30A</text>
+<text x="292.1" y="160.02" size="1.778" layer="94">ad8417 (60x Gain)
+</text>
 <text x="242.57" y="6.096" size="1.778" layer="94">Shunt Amp Caps</text>
 <wire x1="139.7" y1="27.178" x2="264.16" y2="27.178" width="0.1524" layer="94"/>
 <wire x1="264.16" y1="27.178" x2="264.16" y2="5.08" width="0.1524" layer="94"/>
