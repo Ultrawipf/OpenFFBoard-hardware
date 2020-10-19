@@ -12,11 +12,11 @@ Full Kits will be available later once everything is tested. Check the [Discord]
 Changelog:
 ### TMC Driver:
 
-##### 1.1: (Prerelease prototype)
+#### 1.1: (Prerelease prototype)
 - Added filtering for Hall and Encoder inputs.
 - Separated TMC and STM VM sense dividers
 
-##### 1.2: (Major redesign)
+#### 1.2: (Major redesign)
 - Using TMC4671-LA production version
 - Added 5V buck converter
 - Added emergency shutdown method by pulling enable low
@@ -32,7 +32,7 @@ Changelog:
 - 50x50+100mm screw holes
 
 ### STM USB Interface:
-##### 1.1.1:
+#### 1.1.1:
 - Renaming some pins
 - Added FFBoard logo
 - Changed USB diode to SMC
