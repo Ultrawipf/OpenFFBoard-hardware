@@ -25253,7 +25253,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="JP10" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="U23" library="Powermisc" deviceset="MAX5033BASA+T" device=""/>
 <part name="R31" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1.5k"/>
-<part name="D12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="_SOD-123FL" package3d_urn="urn:adsk.eagle:package:6240937/1" value="LV low drop"/>
+<part name="D12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="_SOD-123FL" package3d_urn="urn:adsk.eagle:package:6240937/1" value="HV &gt;100V"/>
 <part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C41" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
@@ -25279,6 +25279,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="C20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7µF"/>
 <part name="+3V35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C29" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="CPOL-EU" device="E5-8.5" package3d_urn="urn:adsk.eagle:package:23374/1"/>
+<part name="D15" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="_SOD-123FL" package3d_urn="urn:adsk.eagle:package:6240937/1" value="Zener 65V"/>
 </parts>
 <sheets>
 <sheet>
@@ -25537,7 +25538,7 @@ Must have good input decoupling</text>
 </instance>
 <instance part="U17" gate="G$1" x="365.76" y="58.42" smashed="yes">
 <attribute name="VALUE" x="339.09" y="58.42" size="1.778" layer="96"/>
-<attribute name="NAME" x="369.57" y="60.96" size="1.778" layer="95"/>
+<attribute name="NAME" x="361.95" y="60.96" size="1.778" layer="95"/>
 </instance>
 <instance part="GND28" gate="1" x="368.3" y="45.72" smashed="yes">
 <attribute name="VALUE" x="365.76" y="43.18" size="1.778" layer="96"/>
@@ -26400,6 +26401,10 @@ Must have good input decoupling</text>
 <attribute name="NAME" x="275.463" y="20.8026" size="1.778" layer="95"/>
 <attribute name="VALUE" x="275.463" y="15.7226" size="1.778" layer="96"/>
 </instance>
+<instance part="D15" gate="G$1" x="373.38" y="58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="375.4374" y="50.8" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="378.2314" y="50.8" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -26576,6 +26581,10 @@ Must have good input decoupling</text>
 <pinref part="GND28" gate="1" pin="GND"/>
 <pinref part="U17" gate="G$1" pin="S"/>
 <wire x1="368.3" y1="48.26" x2="368.3" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="53.34" x2="373.38" y2="53.34" width="0.1524" layer="91"/>
+<junction x="368.3" y="53.34"/>
+<pinref part="D15" gate="G$1" pin="A"/>
+<wire x1="373.38" y1="53.34" x2="373.38" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
@@ -27173,6 +27182,9 @@ Must have good input decoupling</text>
 <wire x1="368.3" y1="63.5" x2="373.38" y2="63.5" width="0.1524" layer="91"/>
 <junction x="368.3" y="63.5"/>
 <pinref part="D11" gate="G$1" pin="A"/>
+<pinref part="D15" gate="G$1" pin="C"/>
+<wire x1="373.38" y1="60.96" x2="373.38" y2="63.5" width="0.1524" layer="91"/>
+<junction x="373.38" y="63.5"/>
 </segment>
 <segment>
 <wire x1="474.98" y1="53.34" x2="477.52" y2="53.34" width="0.1524" layer="91"/>
