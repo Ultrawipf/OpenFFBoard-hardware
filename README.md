@@ -32,12 +32,17 @@ Changelog:
 - 50x50+100mm screw holes
 
 ### STM USB Interface:
-#### 1.1.1:
-- Renaming some pins
+#### 1.2:
+- STM32F407VG
+- Reserved PWM pins
+- 3 CS pins per SPI
+- CAN bus
+- Reserved E-Stop
+- USB Vbus sense
+- separated ADCs for vsense and analog in
+- LEDs moved
 - Added FFBoard logo
 - Changed USB diode to SMC
-Added zener pad on 5V
-Removed encoder buffer
-Higher value pwr led resistor
-Added pads for SW
-Minor routing changes
+- Added zener pad on 5V
+- Removed encoder buffer
+- Higher value pwr led resistor
