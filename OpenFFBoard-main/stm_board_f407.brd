@@ -171,7 +171,7 @@
 <wire x1="0" y1="-55" x2="5" y2="-60" width="0" layer="20" curve="90"/>
 <text x="59.2" y="-9.6" size="1.25" layer="21" rot="R180">Open FFBoard
 USB interface</text>
-<text x="59" y="-13" size="1" layer="21" rot="R180">V1.2</text>
+<text x="59" y="-13" size="1" layer="21" rot="R180">V1.2.1</text>
 <text x="21.5" y="-8.55" size="1" layer="22" font="vector" rot="MR270">GND | 5V</text>
 <text x="24" y="-8.5" size="1" layer="22" font="vector" rot="MR270">RST | 3V3</text>
 <text x="26.6" y="-8.5" size="1" layer="22" font="vector" rot="MR270">MOSI | MISO</text>
@@ -677,7 +677,7 @@ USB interface</text>
 <text x="50.2" y="-1.3" size="0.8128" layer="22" font="vector" rot="MR0">RX</text>
 <text x="47.4" y="-1.3" size="0.8128" layer="22" font="vector" rot="MR0">TX</text>
 <text x="49.9" y="-9.5" size="0.8128" layer="22" font="vector" rot="MR0">TIM/ADC</text>
-<text x="47.6" y="-13.3" size="1" layer="22" font="vector" rot="MR180">V1.2</text>
+<text x="47.6" y="-13.3" size="1" layer="22" font="vector" rot="MR180">V1.2.1</text>
 <wire x1="3" y1="-26.7" x2="7.8" y2="-26.7" width="0.1016" layer="21"/>
 <wire x1="4.2" y1="-26.7" x2="2.9" y2="-26.7" width="0.1" layer="22"/>
 <wire x1="4.2" y1="-26.7" x2="9" y2="-26.7" width="0.1016" layer="22"/>
@@ -3755,7 +3755,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="32.56" y="-44.465" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X05" package3d_urn="urn:adsk.eagle:package:22470/2" value="Analog" x="55" y="-21.1" locked="yes" smashed="yes" rot="R270">
-<attribute name="NAME" x="53.32" y="-14.525" size="1" layer="25" ratio="10"/>
+<attribute name="NAME" x="52.42" y="-14.625" size="1" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="35" x="55" y="-21.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="50.555" y="-16.02" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -3841,7 +3841,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="23.65" y="-0.428" size="1.27" layer="27"/>
 </element>
 <element name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X11" package3d_urn="urn:adsk.eagle:package:22419/2" value="EXT" x="33.82" y="-55" locked="yes" smashed="yes" rot="R180">
-<attribute name="NAME" x="49.245" y="-56.32" size="1" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="49.655" y="-53.68" size="1" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="2" x="33.82" y="-55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="41.44" y="-50.555" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -3942,6 +3942,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="12.7738" y="-50.3712" size="1" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="69" x="17.6" y="-47.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="11.25" y="-50.775" size="1.27" layer="27"/>
+</element>
+<element name="C15" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF" x="48.9" y="-55" locked="yes" smashed="yes" rot="R270">
+<attribute name="NAME" x="48.665" y="-57.565" size="1" layer="25"/>
+<attribute name="VALUE" x="46.995" y="-54.365" size="1.27" layer="27" rot="R270"/>
 </element>
 </elements>
 <signals>
@@ -4103,6 +4107,7 @@ design rules under a new name.</description>
 <via x="14.6" y="-38.6" extent="1-16" drill="0.3"/>
 <via x="15.8" y="-41.9" extent="1-16" drill="0.3"/>
 <via x="13.5" y="-44.2" extent="1-16" drill="0.3"/>
+<contactref element="C15" pad="2"/>
 </signal>
 <signal name="+3V3">
 <contactref element="C10" pad="1"/>
@@ -5253,6 +5258,9 @@ design rules under a new name.</description>
 <via x="37.7" y="-55" extent="1-16" drill="0.3"/>
 <wire x1="37.7" y1="-55" x2="45.25" y2="-55" width="0.2" layer="1"/>
 <wire x1="45.25" y1="-55" x2="46.52" y2="-53.73" width="0.2" layer="1"/>
+<contactref element="C15" pad="1"/>
+<wire x1="46.52" y1="-53.73" x2="46.94" y2="-54.15" width="0.1524" layer="1"/>
+<wire x1="46.94" y1="-54.15" x2="48.9" y2="-54.15" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
