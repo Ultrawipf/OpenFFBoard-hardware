@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -72,7 +72,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -25078,7 +25078,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="R49" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="71.5k"/>
 <part name="R50" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+UB" device=""/>
-<part name="C45" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7µF"/>
+<part name="C45" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7µF &lt;REMOVE&gt;"/>
 <part name="L2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-EU" device="L4532P" package3d_urn="urn:adsk.eagle:package:23484/1" value="10µH"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="R38" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7k"/>
@@ -25192,10 +25192,10 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="D7" library="Powermisc" deviceset="BZX384-XXX" device=""/>
 <part name="D8" library="Powermisc" deviceset="BZX384-XXX" device=""/>
 <part name="D10" library="Powermisc" deviceset="BZX384-XXX" device=""/>
-<part name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
-<part name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
-<part name="R25" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
-<part name="R28" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
+<part name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33k"/>
+<part name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33k"/>
+<part name="R25" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33k"/>
+<part name="R28" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33k"/>
 <part name="L1" library="Powermisc" deviceset="8MMINDUCTOR" device="" package3d_urn="urn:adsk.eagle:package:15122/1" value="220µH"/>
 <part name="P+23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="Connectors"/>
@@ -25279,7 +25279,8 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="C20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7µF"/>
 <part name="+3V35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C29" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="CPOL-EU" device="E5-8.5" package3d_urn="urn:adsk.eagle:package:23374/1"/>
-<part name="D15" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="_SOD-123FL" package3d_urn="urn:adsk.eagle:package:6240937/1" value="Zener 65V"/>
+<part name="D15" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="_SOD-123FL" package3d_urn="urn:adsk.eagle:package:6240937/1" value="Zener 65V (MMSZ5265BT1G)"/>
+<part name="R51" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33k"/>
 </parts>
 <sheets>
 <sheet>
@@ -25421,6 +25422,7 @@ Must have good input decoupling</text>
 <text x="617.22" y="195.58" size="1.778" layer="97">Optional filters</text>
 <text x="256.54" y="144.78" size="1.778" layer="97">Zeners optional</text>
 <text x="81.28" y="172.72" size="1.778" layer="97">TMC4671-LA</text>
+<text x="339.09" y="75.692" size="1.778" layer="97">non inverting!</text>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="50.8" y="236.22" smashed="yes">
@@ -25606,8 +25608,8 @@ Must have good input decoupling</text>
 <attribute name="VALUE" x="233.68" y="145.0086" size="1.778" layer="96"/>
 </instance>
 <instance part="C24" gate="G$1" x="236.22" y="139.7" smashed="yes">
-<attribute name="NAME" x="240.284" y="140.081" size="1.778" layer="95"/>
-<attribute name="VALUE" x="240.284" y="137.541" size="1.778" layer="96"/>
+<attribute name="NAME" x="245.364" y="140.081" size="1.778" layer="95"/>
+<attribute name="VALUE" x="237.744" y="140.081" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="170.18" y="147.32" smashed="yes">
 <attribute name="VALUE" x="167.64" y="150.495" size="1.778" layer="96"/>
@@ -26405,6 +26407,10 @@ Must have good input decoupling</text>
 <attribute name="NAME" x="375.4374" y="50.8" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="378.2314" y="50.8" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="R51" gate="G$1" x="360.68" y="50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="359.1814" y="46.99" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="363.982" y="46.99" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -26585,6 +26591,11 @@ Must have good input decoupling</text>
 <junction x="368.3" y="53.34"/>
 <pinref part="D15" gate="G$1" pin="A"/>
 <wire x1="373.38" y1="53.34" x2="373.38" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="R51" gate="G$1" pin="1"/>
+<wire x1="360.68" y1="45.72" x2="365.76" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="45.72" x2="365.76" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="48.26" x2="368.3" y2="48.26" width="0.1524" layer="91"/>
+<junction x="368.3" y="48.26"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
@@ -27999,6 +28010,7 @@ Must have good input decoupling</text>
 <junction x="360.68" y="55.88"/>
 <pinref part="U14" gate="G$1" pin="OUT"/>
 <wire x1="358.14" y1="71.12" x2="360.68" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="R51" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="V_SENSE/2" class="0">
