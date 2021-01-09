@@ -3,7 +3,7 @@ This is the heart of the Open FFBoard.
 It runs the FFBoard firmware and interfaces with all your peripherals and motor drivers.
 
 #### How to order yourself
-You can order this board directly via [jlcpcb.com](jlcpcb.com).
+You can order this board directly via [jlcpcb.com](https://jlcpcb.com).
 
 The BOM and component placement files are available in the JLC assembly folder and already formatted with matching LCSC part numbers.
 
