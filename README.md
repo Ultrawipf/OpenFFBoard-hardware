@@ -37,6 +37,13 @@ Changelog:
 - Added temperature sensor pads on AGPI-B
 - 50x50+100mm screw holes
 
+#### 1.2.1:
+- Fixed silkscreen (R18 and R19 swapped)
+- Modified some labels
+- Added 33k gate pulldown for brake resistor
+- Moved and resized vias in motor driver part (Manufacturing reliability)
+- Tented vias
+
 ### STM USB Interface:
 #### 1.1:
 - Initial prototype
@@ -64,3 +71,4 @@ Changelog:
 - Moved USB socket and terminals slightly to the corners (Big usb plugs might interfere with the pins)
 - Changed crystal load capacitors to lower values. (F407 DFU is very sensitive and does not work reliably with too high value caps)
 - Added E-Stop capacitor against noise triggering it
+- Tented vias
