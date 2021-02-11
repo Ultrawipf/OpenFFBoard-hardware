@@ -36,8 +36,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -240,7 +240,7 @@ USB interface</text>
 <text x="19" y="-6.8" size="1" layer="22" rot="MR0">1</text>
 <text x="19" y="-4.2" size="1" layer="22" rot="MR0">2</text>
 <text x="42.2" y="-4.2" size="1" layer="22" rot="MR0">16</text>
-<text x="2.7" y="-49.3" size="1" layer="22" rot="MR90">YR 2020</text>
+<text x="2.7" y="-49.3" size="1" layer="22" rot="MR90">YR 2021</text>
 <text x="58.9" y="-16.8" size="1" layer="21" font="vector" rot="R90">3v3</text>
 <text x="52" y="-19.7" size="1" layer="21" font="vector" rot="R90">GND</text>
 <text x="51.9" y="-41.8" size="1.2" layer="21" font="vector" rot="R90">GND</text>
