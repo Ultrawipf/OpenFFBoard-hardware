@@ -72,3 +72,6 @@ Changelog:
 - Changed crystal load capacitors to lower values. (F407 DFU is very sensitive and does not work reliably with too high value caps)
 - Added E-Stop capacitor against noise triggering it
 - Tented vias
+
+#### 1.2.2
+- Swapped (Previously unused) Encoder Z pin from pin 65 to pin 62 because of interrupt conflicts with the DRV flag pin
