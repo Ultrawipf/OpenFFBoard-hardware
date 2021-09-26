@@ -17831,9 +17831,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R10" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="119.38" y1="215.9" x2="121.92" y2="215.9" width="0.1524" layer="91"/>
-<label x="121.92" y="215.9" size="1.27" layer="95" rot="MR180" xref="yes"/>
-<pinref part="U1" gate="A" pin="PC8"/>
+<wire x1="119.38" y1="154.94" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
+<label x="121.92" y="154.94" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="U1" gate="A" pin="PD15"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">
