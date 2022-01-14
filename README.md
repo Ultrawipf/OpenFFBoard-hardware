@@ -37,12 +37,18 @@ Changelog:
 - Added temperature sensor pads on AGPI-B
 - 50x50+100mm screw holes
 
-#### 1.2.1:
+#### 1.2 fix:
 - Fixed silkscreen (R18 and R19 swapped)
 - Modified some labels
 - Added 33k gate pulldown for brake resistor
 - Moved and resized vias in motor driver part (Manufacturing reliability)
 - Tented vias
+
+#### 1.2.2 (HALL):
+- Redesigned power stage to use hall sensors (LEM GO SME and TMCS1100)
+- Changed buffers to 74LV17APWJ
+- Added opamp for TMC inputs (temperature and voltage sensing)
+- Used opamp as comparator for hardware brake resistor activation point (~65V)
 
 ### STM USB Interface:
 #### 1.1:
