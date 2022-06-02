@@ -81,3 +81,8 @@ Changelog:
 
 #### 1.2.2
 - Swapped (Previously unused) Encoder Z pin from pin 65 to pin 62 because of interrupt conflicts with the DRV flag pin
+
+#### 1.2.3
+- USB-C instead of micro USB
+- SPI1 uses a 2 row header
+- Additional USB protections
