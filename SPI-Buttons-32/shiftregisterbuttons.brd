@@ -1968,8 +1968,8 @@ design rules under a new name.</description>
 <polygon width="0.1524" layer="16">
 <vertex x="0" y="43.18"/>
 <vertex x="0" y="-0.27"/>
-<vertex x="46" y="-0.27"/>
-<vertex x="46" y="43.18"/>
+<vertex x="47" y="-0.27"/>
+<vertex x="47" y="43.18"/>
 </polygon>
 <contactref element="JP1" pad="1"/>
 <contactref element="JP2" pad="18"/>
