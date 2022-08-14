@@ -86,3 +86,7 @@ Changelog:
 - USB-C instead of micro USB
 - SPI1 uses a 2 row header
 - Additional USB protections
+
+#### 1.2.4
+- Moved EXT header slightly
+- Used 2 extra jumper pins for CAN termination instead of solderjumper
