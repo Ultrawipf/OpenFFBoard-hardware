@@ -13,8 +13,8 @@ Contact me (Ultrawipf) in the official [Discord](https://discord.com/invite/gHtn
 
 
 #### How to order yourself
-You can order this board directly via [jlcpcb.com](https://jlcpcb.com).
+You can order this board directly via [jlcpcb.com](https://jlcpcb.com/DYE).
 
 The BOM and component placement files are available in the JLC assembly folder and already formatted with matching LCSC part numbers.
 
-Everything apart from the USB socket and headers can be directly assembled by JLC.
+Everything apart from the headers can be directly assembled by JLC including the USB socket.
