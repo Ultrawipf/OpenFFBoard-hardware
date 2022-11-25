@@ -5,12 +5,17 @@ These are work in progress.
 No guarantee for functionality or safety! The designs are experimental and may change at any time.
 The firmware is available in the main [OpenFFBoard](https://github.com/Ultrawipf/OpenFFBoard) git.
 
-This project requires soldering of many fine pitched parts including QFN.
-The motor driver must be made with 2oz copper!
+This project requires soldering of many fine pitched parts including QFN. Availability of components may change over time so check for alternatives if something is not available.
+The motor driver should be made with 2oz copper layers for best thermal performance!
 
-Full Kits will be available in small batches on [Tindie](https://www.tindie.com/stores/gigawipf/) or Discord. Check the [Discord](https://discord.com/invite/gHtnEcP) and [project page](https://hackaday.io/project/163904-open-ffboard) for updates.
+The firmware may run on some third party development kits but as they have different pinouts and missing peripherals this is not recommended.
 
-The USB interface can be ordered partially assembled at [jlcpcb.com](jlcpcb.com/DYE). Files are in the assembly folders.
+
+If you don't want to solder yourself full Kits will be available in small batches on [Tindie](https://www.tindie.com/stores/gigawipf/) or Discord.
+
+Check the [Discord](https://discord.com/invite/gHtnEcP) and [project page](https://hackaday.io/project/163904-open-ffboard) for updates.
+
+The USB interface can be ordered assembled at [jlcpcb.com](https://jlcpcb.com/DYE). Files are in the assembly folders.
 
 
 **If you want to sell any hardware of this project yourself i would kindly ask you to get in contact with me ([mail](mailto:ffboard@y-richter.de) or Discord)**
