@@ -17,6 +17,7 @@ Check the [Discord](https://discord.com/invite/gHtnEcP) and [project page](https
 
 The USB interface can be ordered assembled at [jlcpcb.com](https://jlcpcb.com/DYE). Files are in the assembly folders.
 
+### LICENSE NOTE: The root license applies to all subfolders NOT containing their own LICENSE file. If a subfolder contains a different LICENSE file this different license applies to all subfolders below this LICENSE file.
 
 **If you want to sell any hardware of this project yourself i would kindly ask you to get in contact with me ([mail](mailto:ffboard@y-richter.de) or Discord)**
 
