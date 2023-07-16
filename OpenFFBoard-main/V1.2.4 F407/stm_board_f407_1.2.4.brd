@@ -311,7 +311,7 @@ USB interface</text>
 <text x="5.4" y="-39.7" size="1.4" layer="22" font="vector" rot="MR90">GND</text>
 <text x="49.7" y="-46.1" size="1.4" layer="21" rot="R90">SYS</text>
 <text x="57.7" y="-46.1" size="1.4" layer="21" rot="R90">ERR</text>
-<text x="53.6" y="-46.1" size="1.4" layer="21" rot="R90">CLIP</text>
+<text x="53.6" y="-46.1" size="1.4" layer="21" rot="R90">FFB</text>
 <text x="45.6" y="-46.1" size="1.4" layer="21" rot="R90">PWR</text>
 <wire x1="25.9" y1="-57" x2="25.9" y2="-60" width="0.1016" layer="21"/>
 <wire x1="23.3" y1="-57" x2="23.3" y2="-60" width="0.1016" layer="21"/>
