@@ -7,7 +7,7 @@ The SPI1 port layout had to change to 2 rows instead of 1.
 
 
 #### How to order yourself
-You can order this board directly via [jlcpcb.com](https://jlcpcb.com).
+You can order this board directly via [jlcpcb.com](https://jlcpcb.com/?from=Gigawipf).
 
 The BOM and component placement files are available in the JLC assembly folder and already formatted with matching LCSC part numbers.
 
