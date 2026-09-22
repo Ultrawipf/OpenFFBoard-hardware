@@ -10,17 +10,20 @@ The motor driver should be made with 2oz copper layers for best thermal performa
 
 The firmware may run on some third party development kits but as they have different pinouts and missing peripherals this is not recommended.
 
-
-If you don't want to solder yourself full Kits may be available in small batches on [Elecrow](https://www.elecrow.com/open-ffboard-stm32f407-usb-interface-only.html), [Tindie](https://www.tindie.com/stores/gigawipf/) or Discord.
+## Buy official kits
+* [Elecrow](https://www.elecrow.com/open-ffboard-stm32f407-usb-interface-only.html)
+* [Lectronz](https://www.lectronz.com/stores/gigawipf)
+* [Tindie](https://www.tindie.com/stores/gigawipf/) or Discord.
 
 Check the [Discord](https://discord.com/invite/gHtnEcP) and [project page](https://hackaday.io/project/163904-open-ffboard) for updates.
 
+---
 
 ### LICENSE NOTE: The root license applies to all subfolders NOT containing their own LICENSE file. If a subfolder contains a different LICENSE file this different license applies to all subfolders below this LICENSE file.
 
 **If you want to sell any hardware of this project yourself i would kindly ask you to get in contact with me ([mail](mailto:ffboard@y-richter.de) or Discord)**
 
-Changelog:
+## Changelog
 ### TMC Driver:
 
 #### 1.1: (Prerelease prototype)
